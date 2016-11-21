@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding:0;
+}
+a,li{
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url(bg_tree.gif) repeat-x left top;
+	
+}
+.page-wrapper{
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	text-align: left;
+	width: 732px;
+	height: 100%;
+}
+.intro{
+	display: block;
+}
+h1{
+	height: 200px;
+	background: url(nutitle.gif);
+	padding:0;
+	margin: 0;
+}
+h1 span,h2 span{
+	display: none;
+}
+.sidebar{
+	position: absolute;
+	left: 0;
+	top: 200px;
+	width: 20%;
+}
+.preamble{
+	position: absolute;
+	left: 185px;
+	top: 180px;
+	width: 60%;
+}
+.main{
+	position: absolute;
+	left: 185px;
+	top: 490px;
+	width: 60%;
+}
+footer{
+	position: absolute;
+	left: 112px;
+	bottom: -40px;
+	width: 60%;
+	height: 20px;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+.summary{
+	position: absolute;
+	right: 0;
+	top: 200px;
+	width: 15%;
+}
+.select{
+	background: url(select.gif) no-repeat center top;
+	color: transparent;
+}
+.design-archives{
+	background: url(archives.gif) no-repeat center top;
+	color: transparent;
+}
+.zen-resources{
+	background: url(resources.gif) no-repeat center top;
+	color: transparent;
+}
+nav,.zen-resources ul{
+	padding: 10px;
+}
+.preamble h3{
+	background: url(road.gif) no-repeat center top;
+	color: transparent;
+	height: 70px;
+	top: 0;
+}
+.explanation h3{
+	background: url(what.gif) no-repeat center top;
+	height: 70px;
+	color: transparent;
+	top: 0;
+}
+.participation h3{
+	background: url(participation.gif) no-repeat center top;
+	height: 70px;
+	color: transparent;
+}
+.benefits h3{
+	background: url(benefits.gif) no-repeat center top;
+	height: 70px;
+	color: transparent;
+}
+.requirements h3{
+	background: url(requirements.gif) no-repeat center top;
+	height: 70px;
+	color: transparent;
+}
+.requirement p{
+	padding: 10px;
+}
+a{
+	color: #090;
+	background: transparent;
+	font-weight: bold;
+}
+p{
+	color: #888;
+}
